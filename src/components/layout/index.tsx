@@ -11,7 +11,7 @@ const Layout: React.FC<Props>  = ({children}) => {
   return (
     <div>
     <LayoutWrapper>
-        <NavBar  />
+
     <main>{children}</main>
 
     </LayoutWrapper>
